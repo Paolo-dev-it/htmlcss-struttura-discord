@@ -4,3 +4,96 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: aqua;
+}
+.menu {
+    width: 80%;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .logo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .button {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .list {
+    width: 700px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .list-items {
+    display: flex;
+    list-style: none;
+    
+}
+
+.items {
+    margin-right: 60px;
+}
+
+.bottom-nav {
+    width: 80%;
+    margin: auto;
+}
+.download {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: red;
+}
+
+.principal {
+    background-color: peru;
+}
+
+.principal .content {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .img {
+    flex-basis: 50%;
+    background-color: beige;
+}
+
+.content .description {
+    flex-basis: 48%;
+    background-color: rgb(155, 155, 138);
+}
+
+
+
+
+
+
+
+
+
+
+
+
