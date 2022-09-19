@@ -108,16 +108,33 @@ header {
         flex-basis: 50%;
 }
 
-
-
-.principal-2 {
-    background-color: peru;
+.bottom-principal {
+    background-color: rgb(166, 123, 206);
 }
 
-.principal-2 .content {
+.content .tecnology {
+    background-color: rgb(145, 112, 112);
+}
+
+.content .pic {
+    background-color: rgb(195, 126, 126);
+}
+
+.bottom-principal .content {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+.bottom-principal .cta {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(145, 112, 112);
+
+}
+
+
 
 
 
