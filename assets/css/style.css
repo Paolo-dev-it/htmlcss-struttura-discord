@@ -134,7 +134,25 @@ header {
 
 }
 
+footer .principal {
+    background-color: pink;
+}
 
+.col {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col .column {
+    flex-grow: 300;
+    background-color: darkmagenta;
+}
+
+.col .column-1 {
+    flex-grow: 200;
+    background-color: rgb(181, 1, 181);
+}
 
 
 
