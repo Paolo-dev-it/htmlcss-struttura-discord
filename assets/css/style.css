@@ -86,6 +86,39 @@ header {
     background-color: rgb(155, 155, 138);
 }
 
+.principal-1 {
+    background-color: rgb(170, 141, 112);
+}
+
+.principal-1 .content-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.content-1 .img-1 {
+    flex-basis: 48%;
+    background-color: beige;
+}
+
+.content-1 .description-1 {
+        background-color: rgb(155, 155, 138);
+        flex-basis: 50%;
+}
+
+
+
+.principal-2 {
+    background-color: peru;
+}
+
+.principal-2 .content {
+    width: 80%;
+    margin: auto;
+}
+
 
 
 
