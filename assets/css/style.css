@@ -154,6 +154,29 @@ footer .principal {
     background-color: rgb(181, 1, 181);
 }
 
+.footer, .lista {
+    border-top: 5px solid white;
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista .logo-footer {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 121, 135);
+}
+
+.lista .subscribe {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 121, 135);
+}
+
+
+
 
 
 
