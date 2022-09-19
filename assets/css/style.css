@@ -52,8 +52,9 @@ header {
 }
 
 .bottom-nav {
-    width: 80%;
+    width: 70%;
     margin: auto;
+    
 }
 .download {
     width: 80%;
@@ -61,6 +62,15 @@ header {
     height: 500px;
     background-color: red;
 }
+
+ .contenuto {
+    text-align: center;
+}
+
+.contenuto .text {
+    padding: 50px 30px;
+}
+
 
 .principal {
     background-color: peru;
