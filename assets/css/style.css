@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* header section */
 header {
     background-color: aqua;
 }
@@ -14,27 +14,27 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+/* logo */
 .menu .logo {
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    /* height: 100px; */
     background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/* bottone login */
 .menu .button {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: red; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/* lista centrale sul nav */
 .menu .list {
-    width: 700px;
+    /* width: 700px; */
     background-color: red;
     display: flex;
     align-items: center;
@@ -50,16 +50,16 @@ header {
 .items {
     margin-right: 60px;
 }
-
+/* Sezione centrale sotto il nav */
 .bottom-nav {
-    width: 70%;
+    width: 60%;
     margin: auto;
     
 }
 .download {
     width: 80%;
     margin: auto;
-    height: 500px;
+    /* height: 500px; */
     background-color: red;
 }
 
@@ -70,8 +70,13 @@ header {
 .contenuto .text {
     padding: 50px 30px;
 }
+/* stile bottoni */
+.contenuto .button-1 {
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
 
-
+/* Parte principale sito web I Parte */
 .principal {
     background-color: peru;
 }
@@ -87,15 +92,15 @@ header {
 }
 
 .content .img {
-    flex-basis: 50%;
+    flex-basis: 58%;
     background-color: beige;
 }
 
 .content .description {
-    flex-basis: 48%;
+    flex-basis: 40%;
     background-color: rgb(155, 155, 138);
 }
-
+ /* Parte principale sito web II Parte */ 
 .principal-1 {
     background-color: rgb(170, 141, 112);
 }
@@ -109,15 +114,15 @@ header {
 }
 
 .content-1 .img-1 {
-    flex-basis: 48%;
+    flex-basis: 58%;
     background-color: beige;
 }
 
 .content-1 .description-1 {
         background-color: rgb(155, 155, 138);
-        flex-basis: 50%;
+        flex-basis: 40%;
 }
-
+/* Parte orizzontale sopra al footer */
 .bottom-principal {
     background-color: rgb(166, 123, 206);
 }
@@ -143,7 +148,7 @@ header {
     background-color: rgb(145, 112, 112);
 
 }
-
+/* footer */
 footer .principal {
     background-color: pink;
 }
@@ -155,12 +160,13 @@ footer .principal {
 }
 
 .col .column {
-    flex-grow: 300;
+    flex-grow: 2;
     background-color: darkmagenta;
+    min-width: 200px;
 }
 
 .col .column-1 {
-    flex-grow: 200;
+    flex-grow: 1;
     background-color: rgb(181, 1, 181);
 }
 
@@ -174,14 +180,14 @@ footer .principal {
 }
 
 .lista .logo-footer {
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    /* height: 100px; */
     background-color: rgb(202, 121, 135);
 }
 
 .lista .subscribe {
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    /* height: 100px; */
     background-color: rgb(202, 121, 135);
 }
 
